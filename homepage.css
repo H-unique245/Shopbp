@@ -1,0 +1,287 @@
+    *{
+        font-family: Arial, Helvetica, sans-serif
+    }
+    #home-container{
+        position:relative;
+    }
+    .aa{
+        margin: 0;
+        cursor: pointer;
+        text-decoration: none;
+        width:100%;
+        display: block;
+        position: absolute;
+        inset: auto 0px auto 0px;
+        width: 100% !important;
+    }
+    a img {
+        width:100% !important;
+        /* position: absolute; */
+        inset: auto 0px auto 0px;
+    }
+    .aa-con{
+        position: absolute;
+        top: 200px;
+        left: 100px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    }
+    .aa-con h1{
+        font-size: 50px;
+        line-height: 56px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .aa-con p{
+        /* max-width: 25%; */
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .aa-con button{
+        background-color: rgb(238, 74, 27);
+        padding:18px 40px 18px 40px;
+        border: none;
+        color: white !important;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .latest{
+        width: 80%;
+        position: absolute;
+        margin:  600px auto 10px 150px;
+    }
+    .latest > h3 {
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-stretch: condensed;
+    }
+    .latest div > h1{
+        font-size: 34px;
+        line-height: 37px;
+        font-weight: 900;
+    }
+    
+    .show-img, .hom-img{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: auto;
+        gap: 10px;
+     }
+     .hom-img div h5{
+         margin:0;
+         padding: 0;
+     }
+     .hom-img div{
+         text-align: center;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 14px;
+         line-height: 19px;
+     }
+     .hom-img div p{
+         margin-top: 5x;
+         font-size: 12px ;
+         line-height: 19px;
+     }
+    div > img{
+        width:100%;
+    }
+
+    .pink{
+        width: 100%;
+        margin: auto;
+        background-color: rgb(255, 246, 251);;
+        text-align: center;
+        padding: 15px;
+        position:absolute;
+        margin:  1300px auto 10px auto;
+        padding-bottom: 50px;
+    }
+    .pink h3{
+        font-size: 16px;
+        line-height: 19px;
+        padding-top: 60px;
+        text-transform: uppercase;
+        font-stretch: condensed;
+        letter-spacing: 2.25px;
+    }
+    .pink h1{
+        font-size: 34px;
+        line-height: 40px;
+        padding-top: 6px;
+    }
+    .pink p{
+       color: rgb(238, 74, 27);
+       
+       text-decoration: underline;
+    /* lid rgb(238, 74, 27);; */
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .show-img div img{
+        width: 90%;
+    }
+
+ 
+    .pic{
+        margin: 0;
+        cursor: pointer;
+        text-decoration: none;
+        display: block;
+        position: absolute;
+        margin: 1965px auto auto auto;
+        /* width: 100% !important; */
+    }
+    .pic .set{
+        inset: auto 0px auto 0px;
+        /* width: 100% !important; */
+
+    }
+    .pic .aa-con{
+        color: white;
+        text-align: center;
+        width: 20%;
+        position: absolute;
+        top:38%;
+        left:42%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    }
+    .pic .aa-con h1{
+        font-size: 50px;
+        line-height: 56px;
+        font-family: GTAmerica;
+        font-weight: 900;
+    }
+    .pic .aa-con p{
+        font-size: 16px;
+        margin-bottom: 10px;
+        line-height: 1.2rem;
+        font-weight: 300px;
+    }
+    .pic .aa-con :nth-child(1){
+        text-transform: uppercase;
+        font-stretch: condensed;
+        line-height: 19px;
+        letter-spacing: 4px;
+        font-weight: 600;
+    }
+    .party{
+        margin: 2600px auto auto auto;
+        display: flex;
+        
+        justify-content: space-around;
+    }
+    .party .p1{
+        width: 40%;
+    }
+    .party .p2{
+        background-color: white;
+        position: absolute;
+        width: 25%;
+        margin-top: -60px;
+        margin-left: 120px;
+        padding: 30px 80px 10px 30px;
+        color: black;
+    }
+    
+    .party .p2 :nth-child(1){
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 900;
+        font-style: normal;
+        text-transform: uppercase;
+        font-stretch: condensed;
+        letter-spacing: 1.75px;
+    }
+    .latest a >.shopnew, .latest2 a >.shopnew{
+        color:rgb(238, 74, 27);
+        text-decoration: underline;
+        font-weight: 600;
+    }
+    .party .p2 hr{
+        width: 15%;
+        height: 2px;
+        background-color: rgb(238, 74, 27);
+        border: none;
+        margin: 12px 0px;
+    }
+    .party .p2 :last-child{
+        font-size: 26px;
+        line-height: 29px;
+        font-weight: 900;
+    }
+    .latest2{
+        width: 80%;
+        position: absolute;
+        padding: 20px 150px 30px 10px;
+        /* padding-left: ; */
+        background-color: rgb(255, 247, 243);
+        margin:  600px auto 10px 150px;
+    }
+    .latest2 > h3 {
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-stretch: condensed;
+    }
+    .latest2 div > h1{
+        font-size: 34px;
+        line-height: 37px;
+        font-weight: 900;
+    }
+    .latest2 .hom-img{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: auto;
+        gap: 5px;
+    }
+    .latest3{
+        width: 80%;
+        position: absolute;
+        padding: 20px 150px 30px 10px;
+        margin:  1200px auto 10px 150px;
+    }
+    .latest3 > h3 {
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-stretch: condensed;
+    }
+    .latest3 div > h1{
+        font-size: 34px;
+        line-height: 37px;
+        font-weight: 900;
+    }
+    .latest3 .hom-img{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: auto;
+        gap: 5px;
+    }
+    .last {
+        margin:  1800px auto 10px 150px;
+        text-align: center;
+    }
+    .last h1{
+        margin: 10px;
+        font-size: 42px;
+        font-weight: 1600;
+    }
+    .last .icons1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .icon{
+        width: 30%;
+    }
+    .icon img{
+        width: 100%;
+    }
+
+    
