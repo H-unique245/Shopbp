@@ -133,16 +133,19 @@ h5,.nav-content  a{
     margin: auto;
     margin-top: 40px;
 }
-#navbar .bottom div .menu{
+#navbar .bottom .menu{
     margin: auto;
     display: flex;
     width: 80%;
-    justify-content: space-between;
+    font-size: 14px;
+    text-transform: uppercase;
+    justify-content: space-around;
 }
 #navbar .bottom div {
     margin-top: 60px;
     text-align: left;
     margin: auto;
+    margin: 0;
     padding: 0 20px;
     /* margin-left: -50px; */
 }
@@ -154,36 +157,32 @@ h5,.nav-content  a{
     width: 25%;
     margin: auto;
 }
-.menu .sub-menu{
-    width: 100%;
-    
-}
-.sub-menu .nav-content{
-    text-align: left;
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
-.sub-menu .nav-content div{
-    width: 25%;
-    text-align: left;
-    /* margin-left: 50px; */
-}
 #navbar .name img{
  width: 100%;
  height: 40px;
 }
+.menu-whats .nav-content{
+    display: flex;
+    list-style: none;
+    margin: auto;
+     display: none; 
+}
+.whats1 .menu-whats{
+    display: none;
+}
+
+.menu-whats .nav-content li a:hover{
+    font-weight: bold;
+}
+.menu-whats .nav-content img:hover{
+    transition: opacity 300ms ease-in-out;
+    opacity: 1;
+}
+.menu-whats .nav-content div li,img,h5,a{
+    margin: 10px;
+    
+}
 
 
-/* 
-.menu li:hover div > .sub-menu{
-    display: block ;
-    position:absolute;
-    background: #ffffff;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
-    margin-top: 0px;
-    color:#11111111;
-    padding: 10px;
-    padding-bottom:15px ;
-} */
+
+
