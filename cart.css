@@ -1,0 +1,76 @@
+#cart{
+    width: 90%;
+    margin: auto;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid red;
+   display: flex;
+   justify-content: space-around;
+}
+#added{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content:auto;
+    border:1px solid black;
+}
+#order{
+    width: 25%;
+    height: 350px;
+    font-size:small;
+    padding: 10px;
+    border:1px solid black;
+}
+#order .sum h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+#order .sum p{
+    background-color: rgb(190, 178, 178);
+    color: white;
+    font-weight: 900;
+    width: 50px;
+    padding: 5px 10px 5px 10px;
+}
+#order .sum{
+    display: flex;
+    justify-content: space-between;
+}
+.pay div{
+    display: flex;
+    justify-content: space-between;
+}
+.pay img{
+    width: 100%;
+}
+.check{
+    display: block;
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    font-size: 14px;
+    font-weight:600 ;
+    background-color: rgb(219, 59, 20);
+    border: 1px solid rgb(238, 74, 27);
+    color: white;
+}
+.card_body .cartval {
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card_body .cartval h5{
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.9px;
+    font-weight: bold;
+}
+.card_body .cartval p{
+    font-weight: 15px;
+    margin-top: -10px;
+    line-height: 19px;
+}
+.card_body .cartval button{
+    background-color: white;
+    border: 1px solid black;
+}
