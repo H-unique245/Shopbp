@@ -81,3 +81,9 @@
             font-size: 14px;
             line-height: 19px;
         }
+        footer{
+            margin-top: 6500px;
+        }
+        footer li a:hover{
+            font-weight: bold;
+        }

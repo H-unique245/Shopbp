@@ -3,21 +3,21 @@
         "itemtImage": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/jande/jande3041134885/jande3041134885_1651508556523_2-0._UY365_QL90_.jpg",
         "itemName": "JW AnderSon",
         "itemDes": "The Bumper Baguette Shoulder Bag",
-        "itemPrice": "₹60,560.45",
+        "itemPrice": "₹60560.45",
         "itemID":1
     },
     {
         "itemtImage": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/cinqa/cinqa3128011692/cinqa3128011692_1651533371018_2-0._UY365_QL90_.jpg",
         "itemName": "Cing a sept",
         "itemDes": " Beck Dress",
-        "itemPrice": "₹34,113.17",
+        "itemPrice": "₹34113.17",
         "itemID":2
     },
     {
         "itemtImage": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/jande/jande3041134885/jande3041134885_1651508556550_2-0._SH20_QL90_UY365_PGshopbop-db-sticker-3_UY365_.jpg",
         "itemName": "JW AnderSon",
         "itemDes": " The Bumper Baguette Shoulder Bag ",
-        "itemPrice": "₹60,560.45",
+        "itemPrice": "₹60560.45",
         "itemID":3
     },
     {
