@@ -4,7 +4,7 @@
     height: 500px;
     margin-top: 50px;
     margin-bottom: 50px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
    display: flex;
    justify-content: space-around;
 }
@@ -13,14 +13,16 @@
     height: auto;
     display: flex;
     justify-content:auto;
-    border:1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border:1px solid black; */
 }
 #order{
     width: 25%;
     height: 350px;
     font-size:small;
     padding: 10px;
-    border:1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border:1px solid black; */
 }
 #order .sum h1{
     font-size: 25px;
