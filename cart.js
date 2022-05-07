@@ -2,9 +2,9 @@
 var cartData = JSON.parse(localStorage.getItem('added-cart')) || [];
 // console.log(cartData)
 // console.log(eval(10.45+651.36))
-// if(cartData.length>0){
-//     document.querySelector("#added").innerHTML="";
-// }
+if(cartData.length>0){
+    document.querySelector("#added").innerHTML="";
+
 cartData.map(function(elem){
       console.log(elem);
     elem.itemPrice=elem.itemPrice.slice(1)
@@ -39,18 +39,18 @@ cartData.map(function(elem){
         document.querySelector("#added").append(card_body)
     
     });
-
+}
     let total = 0;
     cartData.forEach(elem=>{
       eval(total += parseFloat(elem.itemPrice));
       console.log(total)
     })
-    
+
     function round(num) {
         var m = Number((Math.abs(num) * 100).toPrecision(15));
         return Math.round(m) / 100 * Math.sign(num);
     }
-    total = round(total);    
+     total = round(total);    
 
     document.querySelector(".total").innerText = "₹" + total;
     document.querySelector(".payment").innerText ="₹" + total;
@@ -65,6 +65,7 @@ cartData.map(function(elem){
       if(couponCode == 'MASAI50' && couponApplied == 0){
           total = total/2;
           alert("coupon applied enjoy 50% OFF");
+          document.querySelector("#couponCodeNumber").value="";
           document.querySelector(".total").innerText ="₹ "+ total;
           document.querySelector(".payment").innerText = "₹ "+total;
           localStorage.setItem('payableAmount',JSON.stringify(total));

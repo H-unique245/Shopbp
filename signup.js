@@ -18,6 +18,7 @@ form.addEventListener("submit",function(event) {
 else{
   localStorage.setItem("regUser",JSON.stringify(data));
   alert("Signup successful. Please Signin")
+  window.location.href="login.html";
 }
 })
 
