@@ -1,7 +1,7 @@
 #cart{
     width: 90%;
     margin: auto;
-    height: 500px;
+    height: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     /* border: 1px solid red; */
@@ -11,7 +11,11 @@
 #added{
     width: 60%;
     height: auto;
-    display: flex;
+    /* display: block; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap:12px;
     justify-content:auto;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     /* border:1px solid black; */
