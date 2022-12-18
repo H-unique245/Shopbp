@@ -17,3 +17,27 @@ Shopbop is an e-commerce shopping application where we can buy clothes and other
 - Product Page (Whatsnew) with add to cart functionality
 - cart page
 - checkout and payment page.
+
+# Scrrenshots
+
+  - Home Page
+  <img src="https://i.imgur.com/JYtMuR8.png" alt="homepage" />
+  
+  - Signup Page
+  <img src="https://i.imgur.com/PamuPPU.png" alt="signup" />
+  
+  - Login Page
+  <img src="https://i.imgur.com/VztzRHv.png" alt="login" />
+  
+  - Product Page(WhatsNew)
+  <img src="https://i.imgur.com/PFWLIZx.png" alt="whatsnew" />
+  <img src="https://i.imgur.com/g3m5SCE.png" alt="products" />
+  
+  - Cart Page
+  <img src="https://i.imgur.com/OeKQ106.png" alt="cart" />
+  
+  - Wishlist Page
+  <img src="https://i.imgur.com/E5nWHPg.png" alt="wishlist" />
+  
+  
+  ************************************************************************************************************************************************************
